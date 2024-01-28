@@ -3,7 +3,7 @@
 
 A script I made that lets you swap out custom folders and CFG folders. It also lets you automatically reset TF2!
 You can see more info when choosing the "Whats this?" option in the script.
-**Windows 10 and up only!**
+### Windows 10 and up only!
 
 
 # Why?
