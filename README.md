@@ -1,8 +1,10 @@
 # TF2PresetChooser
 > Expect more features! and possibly bugs... (BETA)
 
+## Windows 10 and up only!
 A script I made that lets you swap out custom folders and CFG folders. It also lets you automatically reset TF2!
 You can see more info when choosing the "Whats this?" option in the script.
+
 
 # Why?
 - Easy reproducibility, can quickly let you import your TF2 configurations without the hassle!
