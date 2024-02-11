@@ -1,7 +1,8 @@
 # Team Fortress 2: Config Editor [More coming]
 A script that lets you swap/rename out presets (tf/custom), bases (tf/cfg), and HUDS easily through a menu! (Choose "What is this?" in the script for more)
 > [!IMPORTANT]
-> #WINDOWS 10 AND UP ONLY!  
+> #WINDOWS 10 AND UP ONLY!
+
 > [!TIP]  
 > **Highly recommended to use MasterComfigs [Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
 
