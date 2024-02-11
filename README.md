@@ -6,8 +6,6 @@ A script that lets you swap/rename out presets (tf/custom), bases (tf/cfg), and 
 > [!TIP]  
 > **Highly recommended to use MasterComfigs [Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
 
-
-
 ## Presets
 - Swappable and renamable `tf/custom` folders that can be located anywhere!
 - Just upload them to the Preset Manager and choose which one (it saves your list)
@@ -16,16 +14,17 @@ A script that lets you swap/rename out presets (tf/custom), bases (tf/cfg), and 
 - Same thing as presets but for `tf/cfg`
 
 ## HUD's
-- Same thing also, letting you swap out any huds by a dynamic list :D
 > [!IMPORTANT]
 > **Cannot load multiple HUD's at once (coming soon tho), just overlay them with folder operations**
+- Same thing also, letting you swap out any huds by a dynamic list :D
+
 
 ## Reset TF2
+> [!CAUTION]
+> **This will reset all settings completely! (Unless you have autorefresh enabled)**
 - Completely automatic and hidden! No manual setup or semi-automatic process.
 - You can clean out configurations, or reset it completely
 - You can enable AUTOREFRESH which when using the complete reset option also brings back the configs you had in the TF folder.
-> [!CAUTION]
-> **This will reset all settings completely! (Unless you have autorefresh enabled)**
 
 # Why?
 - Easy reproducibility, can quickly let you import your TF2 configurations without the hassle!
