@@ -19,7 +19,7 @@ A script that lets you
 > [!WARNING]
 > **Config files will be saved in your DOCUMENTS folder**
 - Click here:
-![image](https://github.com/UltraToon/Team-Fortress-Config-Editor/assets/92064752/e9776a85-d72f-404a-a292-f2bd3437ce52)
+![image](https://github.com/UltraToon/Team-Fortress-Config-Editor/assets/92064752/9afba53e-84df-4efc-9e0e-cf55b89b5c77)
 - Extract the zip, **we recommend moving the TeamFortressConfigEditor.ps1 file to your DOCUMENTS**
 - Your done!
 
