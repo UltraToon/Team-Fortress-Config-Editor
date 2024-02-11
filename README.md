@@ -16,6 +16,11 @@ A script that lets you
 - TF2 broken? Easily use the "Reset TF2" option to fix it. Inspired by [Mastercomfig's DOCS](https://docs.comfig.app/latest/setup/clean_up/)
 
 # Installation
+> [!WARNING]
+> **Config files will be saved in your DOCUMENTS folder**
+
+>[!WARNING]
+>**This is not recommended due to most users having to run the script multiple times, especially with the configs.**
 - Simply press `Windows Key + R`
 - Paste this in `powershell iex(irm https://raw.githubusercontent.com/UltraToon/Team-Fortress-Config-Editor/main/TeamFortressConfigEditor.ps1)`
 
