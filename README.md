@@ -1,5 +1,10 @@
 # Team Fortress 2: Config Editor [More coming]
-A script that lets you swap/rename out presets (tf/custom), bases (tf/cfg), and HUDS easily through a menu! (Choose "What is this?" in the script for more)
+A script that lets you 
+- swap/rename out presets (tf/custom)
+- bases (tf/cfg)
+- and HUDS easily through a menu!
+Choose "What is this?" in the script for more.
+
 > [!IMPORTANT]
 > # WINDOWS 10 AND UP ONLY!
 
