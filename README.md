@@ -2,7 +2,7 @@
 **WINDOWS 10 AND UP ONLY!**
 A script that lets you swap/rename out presets (tf/custom), bases (tf/cfg), and HUDS easily through a menu! (Choose "What is this?" in the script for more)
 > [!CAUTION]
-> **!!! Some features are MasterComfig's overrides ONLY! You can see more at its [Custom Configs](https://docs.comfig.app/page/customization/custom_configs/)
+> **!!! Some features are MasterComfig's overrides ONLY! You can see more at its [Custom Configs](https://docs.comfig.app/page/customization/custom_configs/)**
 # Expect more features and improvements!
 
 
@@ -24,7 +24,7 @@ A script that lets you swap/rename out presets (tf/custom), bases (tf/cfg), and 
 - You can clean out configurations, or reset it completely
 - You can enable AUTOREFRESH which when using the complete reset option also brings back the configs you had in the TF folder.
 > [!CAUTION]
-> **This will reset all settings completely! (Unless you have autorefresh enabled)
+> **This will reset all settings completely! (Unless you have autorefresh enabled)**
 
 # Why?
 - Easy reproducibility, can quickly let you import your TF2 configurations without the hassle!
