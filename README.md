@@ -19,6 +19,8 @@ A script that lets you
 - Simply press `Windows Key + R`
 - Paste this in `powershell iex(irm https://raw.githubusercontent.com/UltraToon/Team-Fortress-Config-Editor/main/TeamFortressConfigEditor.ps1)`
 
+# Info
+
 ## Presets
 - Swappable and renamable `tf/custom` folders that can be located anywhere!
 - Just upload them to the Preset Manager and choose which one (it saves your list)
