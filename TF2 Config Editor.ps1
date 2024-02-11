@@ -4,12 +4,23 @@
 $ErrorActionPreference = 'stop'
 Add-Type -AssemblyName System.Windows.Forms # WinGUI
 
+function Get-TF2Path {
+    $steamLibrary = Get-Content "$(Split-Path $(([string]((
+        Get-ItemPropertyValue -Path "Registry::HKEY_CLASSES_ROOT\steam\Shell\Open\Command" -Name "(Default)") -Split "-", 2, "SimpleMatch")[0]).Trim().Trim('"')))\config\libraryfolders.vdf" |
+        Where-Object { $_ -like '*"path"*' } |
+        ForEach-Object { Join-Path ($_.Trim().Trim('"path"').Trim().Trim('"').Replace("\\", "\")) 'steamapps\common\Team Fortress 2' }
+
+    $TF2InstallPath = $steamLibrary | Where-Object { Test-Path (Join-Path $_ 'hl2.exe') }
+
+    return $TF2InstallPath
+}
+
 # Constants
-$steamLibrary = (Get-ItemProperty -Path "HKCU:\Software\Valve\Steam" -Name "SteamPath").SteamPath
-$TF2InstallPath = "$steamLibrary\steamapps\common\Team Fortress 2"
-$PresetsConfigFile = "$env:USERPROFILE\Documents\TF2CE\Presets.cfg"
-$BasesConfigFile = "$env:USERPROFILE\Documents\TF2CE\Bases.cfg"
-$HUDsConfigFile = "$env:USERPROFILE\Documents\TF2CE\HUDs.cfg"
+$TF2InstallPath = Get-TF2Path
+$Documents = [Environment]::GetFolderPath("MyDocuments")
+$PresetsConfigFile = "$Documents\TF2CE\Presets.cfg"
+$BasesConfigFile = "$Documents\TF2CE\Bases.cfg"
+$HUDsConfigFile = "$Documents\TF2CE\HUDs.cfg"
 $ToggleMode = $false # To enable conditional modes, like remove mode or autorefresh :D
 
 if (!(Test-Path $TF2InstallPath)) {
