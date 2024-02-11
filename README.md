@@ -15,8 +15,8 @@ A script that lets you swap/rename out presets (tf/custom), bases (tf/cfg), and 
 
 ## HUD's
 - Same thing also, letting you swap out any huds by a dynamic list :D
-> [!CAUTION]
-> **!!! Cannot load multiple HUD's at once (coming soon tho), just overlay them with folder operations**
+> [!IMPORTANT]
+> ** Cannot load multiple HUD's at once (coming soon tho), just overlay them with folder operations**
 
 ## Reset TF2
 - Completely automatic and hidden! No manual setup or semi-automatic process.
