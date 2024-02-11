@@ -1,9 +1,8 @@
-# TF2PresetChooser
+# TF2PresetChooser [More coming]
 **WINDOWS 10 AND UP ONLY!**
 A script that lets you swap/rename out presets (tf/custom), bases (tf/cfg), and HUDS easily through a menu! (Choose "What is this?" in the script for more)
 > [!CAUTION]
 > **!!! Some features are MasterComfig's overrides ONLY! You can see more at its [Custom Configs](https://docs.comfig.app/page/customization/custom_configs/)**
-** Expect more features and improvements! **
 
 
 
