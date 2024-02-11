@@ -15,7 +15,10 @@ A script that lets you
 - Friends over, and want to use their settings (cfg folder)? Simply just upload one and use it!
 - TF2 broken? Easily use the "Reset TF2" option to fix it. Inspired by [Mastercomfig's DOCS](https://docs.comfig.app/latest/setup/clean_up/)
 
-# Info
+# Installation
+- Simply press `Windows Key + R`
+- Paste this in `powershell iex(irm https://raw.githubusercontent.com/UltraToon/Team-Fortress-Config-Editor/main/TeamFortressConfigEditor.ps1)`
+
 ## Presets
 - Swappable and renamable `tf/custom` folders that can be located anywhere!
 - Just upload them to the Preset Manager and choose which one (it saves your list)
