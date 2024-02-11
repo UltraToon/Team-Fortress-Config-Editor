@@ -2,7 +2,7 @@
 A script that lets you 
 - swap/rename out presets (tf/custom)
 - bases (tf/cfg)
-- and HUDS easily through a menu!
+- and HUDS easily through a menu!  
 Choose "What is this?" in the script for more.
 
 > [!IMPORTANT]
