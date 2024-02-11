@@ -23,11 +23,6 @@ A script that lets you
 - Extract the zip, **we recommend moving the TeamFortressConfigEditor.ps1 file to your DOCUMENTS**
 - Your done!
 
->[!WARNING]
->**This is not recommended due to most users having to run the script multiple times, especially with the configs.**
-- Simply press `Windows Key + R`
-- Paste this in `powershell iex(irm https://raw.githubusercontent.com/UltraToon/Team-Fortress-Config-Editor/main/TeamFortressConfigEditor.ps1)`
-
 # Info
 
 ## Presets
