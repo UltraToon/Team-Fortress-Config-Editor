@@ -1,13 +1,13 @@
-# Team Fortress 2: Config Editor [More coming] [Windows Only]
+# Team Fortress 2: Config Editor [Windows Only]
+> [!TIP]  
+> **Highly recommended to use MasterComfigs [Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
 ## A script that lets you 
 - swap/rename out presets (tf/custom)
 - bases (tf/cfg)
-- HUDS and more!  
+- HUDS and more!
+- **Choose "What is this?" in the script for more info.**  
 - Roadplan: **live switching**, **autoformat configs**, **taste chooser (simple cfg creator)**, secret..
-**Choose "What is this?" in the script for more info.**
 
-> [!TIP]  
-> **Highly recommended to use MasterComfigs [Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
 
 ## Why?
 - Easy reproducibility, can quickly let you import your TF2 configurations without the hassle!
