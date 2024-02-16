@@ -16,7 +16,7 @@
 # Installation
 - Download the zip: https://github.com/UltraToon/Team-Fortress-Config-Editor/archive/refs/heads/main.zip
 - Extract the zip, make sure the contents are in a seperate folder (should be by default).
-- Double click run.bat, if you get security prompting, press run on them. (windows didnt sign the script so it does it as a warning)
+- Double click run.bat, if you get security prompting, press run on them. (windows didnt sign the script so it prompts warnings)
 - Still have questions or problems? Open an issue.
 
 # Info
