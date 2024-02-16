@@ -401,7 +401,7 @@ function FAQ {
         Clear-Host
         $statusName = 'FAQ:'
         $menu = Read-Host -prompt @'
-    Open the corresponding .cfg files to edit/remove/add content too!
+    Open the corresponding .cfg files in %appdata% to edit/remove/add content also.
     Enabling remove mode lets you remove items when selecting below, just toggle it.
     ╭────────────────────────────────────────┰──────────────────────────────────────────────────────────────╮
     │ ❯ Presets:                             │ ❯ Bases                                                      │
