@@ -1,6 +1,6 @@
 # Team Fortress 2: Config Editor [Windows Only]
 > [!TIP]  
-> **Highly recommended to use MasterComfigs [Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
+> **Highly recommended to use [MasterComfig Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
 ## A script that lets you 
 - swap/rename out presets (tf/custom)
 - bases (tf/cfg)
