@@ -3,7 +3,9 @@
 - swap/rename out presets (tf/custom)
 - bases (tf/cfg)
 - HUDS and more!  
+- Roadplan: **live switching**, **autoformat configs**, **taste chooser (simple cfg creator)**, secret..
 **Choose "What is this?" in the script for more info.**
+
 > [!TIP]  
 > **Highly recommended to use MasterComfigs [Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
 
