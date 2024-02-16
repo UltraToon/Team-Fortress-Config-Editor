@@ -1,4 +1,4 @@
-https://raw.githubusercontent.com/UltraToon/Team-Fortress-Config-Editor/main/TeamFortressConfigEditor.ps1
+https://raw.githubusercontent.com/UltraToon/Team-Fortress-Config-Editor/main/TeamFortressConfigEditor.ps1?raw=true
 # Team Fortress 2: Config Editor [More coming] [Windows Only]
 ## A script that lets you 
 - swap/rename out presets (tf/custom)
