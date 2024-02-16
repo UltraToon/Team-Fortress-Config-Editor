@@ -1,4 +1,3 @@
-https://github.com/UltraToon/Team-Fortress-Config-Editor/archive/refs/heads/main.zip
 # Team Fortress 2: Config Editor [More coming] [Windows Only]
 ## A script that lets you 
 - swap/rename out presets (tf/custom)
@@ -15,12 +14,10 @@ https://github.com/UltraToon/Team-Fortress-Config-Editor/archive/refs/heads/main
 - TF2 broken? Easily use the "Reset TF2" option to fix it. Inspired by [Mastercomfig's DOCS](https://docs.comfig.app/latest/setup/clean_up/)
 
 # Installation
-> [!WARNING]
-> **Config files will be saved in your DOCUMENTS folder**
-- ## Click 'Download ZIP':  
-![image](https://github.com/UltraToon/Team-Fortress-Config-Editor/assets/92064752/9afba53e-84df-4efc-9e0e-cf55b89b5c77)
-- Extract the zip, **we recommend moving the TeamFortressConfigEditor.ps1 file to your DOCUMENTS**
-- Your done!
+- Download the zip: https://github.com/UltraToon/Team-Fortress-Config-Editor/archive/refs/heads/main.zip
+- Extract the zip, make sure the contents are in a seperate folder (should be by default).
+- Double click run.bat, if you get security prompting, press run on them. (windows didnt sign the script so it does it as a warning)
+- Still have questions or problems? Open an issue.
 
 # Info
 
