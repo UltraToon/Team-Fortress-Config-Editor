@@ -328,7 +328,7 @@ function ResetTF2 {
     ╰───────────────────────────────────────────────────────╯
 
     ❯ Navigate:
-        [0] Back to Main Menu
+        [M] Back to Main Menu
         [Q] Exit
 
     ❯ Manage:
@@ -342,7 +342,7 @@ function ResetTF2 {
         Clear-Host
         switch ($menu) {
             q { return 'q' }
-            0 {
+            m {
                 "$statusName Exit"
                 break promptLoop
             }
