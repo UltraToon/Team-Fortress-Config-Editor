@@ -3,10 +3,10 @@
 > **Highly recommended to use [MasterComfig Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
 ### A script that lets you 
 - swap/rename out presets (tf/custom)
-- bases (tf/cfg)
-- HUDS and more!
+- swap/rename out bases (tf/cfg)
+- swap/rename out HUDS and more!
 - **Choose "What is this?" in the script for more info.**  
-- Roadplan: **live switching**, **autoformat configs**, **taste chooser (simple cfg creator)**, secret..
+> Roadplan: **live switching**, **autoformat configs**, **taste chooser (simple cfg creator)**, secret..
 
 ### Why?
 - Easy reproducibility, can quickly let you import your TF2 configurations without the hassle!
