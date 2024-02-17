@@ -17,7 +17,7 @@
 # Installation
 - Download this [bat file](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/download/release/Team-Fortress-Config-Editor.bat) then run it.
 - If you get a warning, press more info > run anyway (this is due to windows being careful of unsigned scripts)
-### > [Releases](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/tag/release) 
+### >[Releases](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/tag/release) 
 
 # Info
 
