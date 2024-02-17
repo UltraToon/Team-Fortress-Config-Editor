@@ -1,7 +1,7 @@
 # Team Fortress 2: Config Editor [Windows 10+]
 > [!TIP]  
 > **Highly recommended to use [MasterComfig Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
-## A script that lets you 
+### A script that lets you 
 - swap/rename out presets (tf/custom)
 - bases (tf/cfg)
 - HUDS and more!
@@ -16,7 +16,7 @@
 - TF2 broken? Easily use the "Reset TF2" option to fix it. Inspired by [Mastercomfig's DOCS](https://docs.comfig.app/latest/setup/clean_up/)
 
 # Installation
-### Info @ [Releases](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/tag/release) or download with [Direct Link](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/download/release/Team-Fortress-Config-Editor.bat)
+### Info @ [Releases](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/tag/release) / download with [Direct Link](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/download/release/Team-Fortress-Config-Editor.bat)
 
 # Info
 
