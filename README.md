@@ -20,20 +20,19 @@
 
 # Info
 
-## Presets
+### Presets
 - Swappable and renamable `tf/custom` folders that can be located anywhere!
 - Just upload them to the Preset Manager and choose which one (it saves your list)
 
-## Bases
+### Bases
 - Same thing as presets but for `tf/cfg`
 
-## HUD's
+### HUD's
 > [!IMPORTANT]
 > **Cannot load multiple HUD's at once (coming soon tho), just overlay them with folder operations**
 - Same thing also, letting you swap out any huds by a dynamic list :D
 
-
-## Reset TF2
+### Reset TF2
 > [!CAUTION]
 > **This will reset all settings completely! (Unless you have autorefresh enabled)**
 - Completely automatic and hidden! No manual setup or semi-automatic process.
