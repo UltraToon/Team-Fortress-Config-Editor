@@ -18,9 +18,7 @@
 # Installation
 > [!TIP]
 > Still have questions or problems? Open an [issue](https://github.com/UltraToon/Team-Fortress-Config-Editor/issues).
-1. Download the zip: [main.zip](https://github.com/UltraToon/Team-Fortress-Config-Editor/archive/refs/heads/main.zip)
-2. Extract the zip, make sure the contents are in a seperate folder (should be by default).
-3. Double click run.bat, if you get security prompting, press run anyway. (windows didnt sign the script so it prompts warnings)
+## Go to [releases](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/download/release/Team-Fortress-Config-Editor.bat) or [direct link](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/download/release/Team-Fortress-Config-Editor.bat)
 
 # Info
 
