@@ -1,4 +1,4 @@
-# Team Fortress 2: Config Editor [Windows Only]
+# Team Fortress 2: Config Editor [Windows 10+]
 > [!TIP]  
 > **Highly recommended to use [MasterComfig Overrides](https://docs.comfig.app/page/customization/custom_configs/)**
 ## A script that lets you 
