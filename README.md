@@ -16,10 +16,11 @@
 - TF2 broken? Easily use the "Reset TF2" option to fix it. Inspired by [Mastercomfig's DOCS](https://docs.comfig.app/latest/setup/clean_up/)
 
 # Installation
-- Download the zip: https://github.com/UltraToon/Team-Fortress-Config-Editor/archive/refs/heads/main.zip
-- Extract the zip, make sure the contents are in a seperate folder (should be by default).
-- Double click run.bat, if you get security prompting, press run on them. (windows didnt sign the script so it prompts warnings)
-- Still have questions or problems? Open an issue.
+> [!TIP]
+> Still have questions or problems? Open an issue.
+1. Download the zip: https://github.com/UltraToon/Team-Fortress-Config-Editor/archive/refs/heads/main.zip
+2. Extract the zip, make sure the contents are in a seperate folder (should be by default).
+3. Double click run.bat, if you get security prompting, press run anyway. (windows didnt sign the script so it prompts warnings)
 
 # Info
 
