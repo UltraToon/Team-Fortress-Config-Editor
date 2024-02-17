@@ -16,7 +16,8 @@
 - TF2 broken? Easily use the "Reset TF2" option to fix it. Inspired by [Mastercomfig's DOCS](https://docs.comfig.app/latest/setup/clean_up/)
 
 # Installation
-### Info @ [Releases](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/tag/release) / download with [Direct Link](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/download/release/Team-Fortress-Config-Editor.bat)
+### Download and info at [Releases](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/tag/release) 
+### Or use the [direct link](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/download/release/Team-Fortress-Config-Editor.bat)
 
 # Info
 
