@@ -8,8 +8,7 @@
 - **Choose "What is this?" in the script for more info.**  
 - Roadplan: **live switching**, **autoformat configs**, **taste chooser (simple cfg creator)**, secret..
 
-
-## Why?
+### Why?
 - Easy reproducibility, can quickly let you import your TF2 configurations without the hassle!
 - Preference, I always like different HUDS, or want to switch out of competitive settings every once and a while.
 - Friends over, and want to use their settings (cfg folder)? Simply just upload one and use it!
