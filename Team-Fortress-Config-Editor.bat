@@ -8,7 +8,6 @@ if %errorlevel% neq 0 (
     exit /b 1
 )
 
-echo Downloading %scriptName%...
 powershell -executionpolicy bypass -command "& { Invoke-Expression ((New-Object Net.WebClient).DownloadString('https://raw.githubusercontent.com/UltraToon/Team-Fortress-Config-Editor/main/main.ps1')) }"
 
 if %errorlevel% neq 0 (
