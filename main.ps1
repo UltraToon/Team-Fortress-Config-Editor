@@ -104,10 +104,11 @@ function Show-MainMenu {
         [1] Manage Presets [custom]     │   {0}
         [2] Manage Bases [cfg]          │
         [3] Manage HUDs [custom]        │
+        [4] Reset TF2                   │
                                         │
     ❯ Other:                            │
-        [4] Reset TF2                   │
-        [5] What is this?               │
+        [5] Open Wiki                   │
+        [6] Quick FAQ                   │
                                         │
         [Q] Exit                        │
                                         ◯
@@ -118,7 +119,8 @@ function Show-MainMenu {
             2 { ManageBases }
             3 { ManageHUDs }
             4 { ResetTF2 }
-            5 { FAQ }
+            5 { Start-Process 'https://github.com/UltraToon/Team-Fortress-Config-Editor/wiki' }
+            6 { FAQ }
             q { break promptLoop }
             default { "Unknown action: '$_'" }
         }
@@ -152,7 +154,7 @@ function ManagePresets {
 
     ❯ Manage:
         [U] Upload a preset
-        [R] Remove a preset [Toggle]
+        [R] [TOGGLE] Remove a preset
 
     ❯ Select{0}:
     {1}
@@ -214,7 +216,7 @@ function ManageBases {
 
     ❯ Manage:
         [U] Upload a base
-        [R] Remove a base [Toggle]
+        [R] [TOGGLE] Remove a base
 
     ❯ Select{0}:
     {1}
@@ -275,7 +277,7 @@ function ManageHUDs {
 
     ❯ Manage:
         [U] Upload a HUD
-        [R] Remove a HUD [Toggle]
+        [R] [TOGGLE] Remove a HUD
 
     ❯ Select{0}:
     {1}
@@ -315,28 +317,30 @@ function ManageHUDs {
 function ResetTF2 {
     :promptLoop while ($true) {
         Clear-Host
-        $statusName = 'Reset TF2:'
+        $statusName = 'Manage TF2:'
         $menu = Read-Host -prompt (@'
-    ╭───────────────────────────────────────────────────────╮
-    │      !Backup folders you want from the TF folder!     │
-    │      ____                _     _____ _____ ____       │
-    │     |  _ \ ___  ___  ___| |_  |_   _|  ___|___ \      │
-    │     | |_) / _ \/ __|/ _ \ __|   | | | |_    __) |     │
-    │     |  _ <  __/\__ \  __/ |_    | | |  _|  / __/      │
-    │     |_| \_\___||___/\___|\__|   |_| |_|   |_____|     │
-    │    Does not reset account data (lvls, items, stats)   │
-    ╰───────────────────────────────────────────────────────╯
+    ╭───────────────────────────────────────────────────────────────────╮
+    │           ! Backup items you want from the TF folder !            │
+    │      __  __                                _____ _____ ____       │
+    │     |  \/  | __ _ _ __   __ _  __ _  ___  |_   _|  ___|___ \      │
+    │     | |\/| |/ _` | '_ \ / _` |/ _` |/ _ \   | | | |_    __) |     │
+    │     | |  | | (_| | | | | (_| | (_| |  __/   | | |  _|  / __/      │
+    │     |_|  |_|\__,_|_| |_|\__,_|\__, |\___|   |_| |_|   |_____|     │
+    │                               |___/                               │
+    │         Does not reset account data (lvls, items, stats)          │
+    ╰───────────────────────────────────────────────────────────────────╯
 
     ❯ Navigate:
         [M] Back to Main Menu
         [Q] Exit
 
     ❯ Manage:
-        [R] Enable autorefresh [Toggle] (restores current cfgs)
+        [R] [TOGGLE] Enable autorefresh (restores cfgs after reset)
+        [E] Export configs from TF2 folder
 
     ❯ Select:
-        [1] Clean out configs [cfg (comfig only)/custom]
-        [2] Complete reset [fixes issues] {0}
+        [1] Clean configs from TF2 folder (COMFIG ONLY)
+        [2] Reset TF2 {0}
 
 '@ -f $(if ($ToggleMode) { "(AUTOREFRESH ON)" }), '{0}')
         Clear-Host
@@ -355,10 +359,23 @@ function ResetTF2 {
                 $ToggleMode = -not $ToggleMode # flip variable
                 continue
             }
+            e {
+                Write-Host "`n`t❯ Choose a destination: " -ForegroundColor Cyan
+                $folderDialog = [System.Windows.Forms.FolderBrowserDialog]::new()
+                $dialogResult = $folderDialog.ShowDialog()
+
+                if ($dialogResult -eq [System.Windows.Forms.DialogResult]::OK) {
+                    $selectedPath = $folderDialog.SelectedPath
+                    Copy-Item -Path "$TF2InstallPath\tf\custom" -Destination $selectedPath @genArgs
+                    Copy-Item -Path "$TF2InstallPath\tf\cfg\overrides" -Destination "$selectedPath\cfg" @genArgs
+                    "$statusName Exported configs"
+                    break PromptLoop
+                }
+            }
             1 {
                 Remove-Item "$TF2InstallPath\tf\custom\*" @genArgs
                 Remove-Item "$TF2InstallPath\tf\cfg\overrides" @genArgs
-                "$statusName Configs completely cleaned"
+                "$statusName Cleaned configs"
                 break PromptLoop
             }
             2 {
