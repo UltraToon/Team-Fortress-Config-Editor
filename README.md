@@ -8,13 +8,9 @@
 - **Choose "What is this?" in the script for more info.**  
 > Roadplan: **live switching**, **autoformat configs**, **taste chooser (simple cfg creator)**, secret..
 
-### Why?
-- Easy reproducibility, can quickly let you import your TF2 configurations without the hassle!
-- Preference, I always like different HUDS, or want to switch out of competitive settings every once and a while.
-- Friends over, and want to use their settings (cfg folder)? Simply just upload one and use it!
-- TF2 broken? Easily use the "Reset TF2" option to fix it. Inspired by [Mastercomfig's DOCS](https://docs.comfig.app/latest/setup/clean_up/)
-
 # Installation
+> [!IMPORTANT]
+> Be warned that most options in the script **WILL** overwrite corresponding items. You can use the Export CFG's option in the Manage TF2 menu.
 - Download [Team-Fortress-Config-Editor.bat](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/download/release/Team-Fortress-Config-Editor.bat) then run it.
 - If you get a warning, press more info > run anyway (this is due to windows being careful of unsigned scripts)
 >[Releases](https://github.com/UltraToon/Team-Fortress-Config-Editor/releases/tag/release) 
