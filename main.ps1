@@ -427,10 +427,11 @@ function FAQ {
     │ > They can be anywhere on your PC,     │ > RECOMMENDED to use mcomfigs overrides:                     │
     │   just use the manager.                │ (https://docs.comfig.app/page/customization/custom_configs/) │
     ┠────────────────────────────────────────╂──────────────────────────────────────────────────────────────┨
-    │ ❯ HUDs:                                │ ❯ Reset TF2:                                                 │
+    │ ❯ HUDs:                                │ ❯ Manage TF2:                                                │
     │ > Swappable and renamable HUDs!        │ > You can reset TF2 of its configurations or completely.     │
     │ > Multi-HUD loading not supported,     │ > Account does not get reset since its in the cloud.         │
     │ instead, merge them with the folders.  │ > Autorefesh restores cfgs (tf/cfg,custom) after the reset.  │
+    │ > Unzip before you upload a folder!    │ > You can export current cfgs to a specified folder.         │
     ╰────────────────────────────────────────┸──────────────────────────────────────────────────────────────╯
 
     ❯ Navigate:
